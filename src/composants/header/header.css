@@ -1,0 +1,26 @@
+.principal-navbar{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0;
+   
+}
+
+.first-nav {
+    width: 50%;
+    height: 50%;
+    background-color: royalblue;
+}
+
+.second-nav{
+    width: 50%;
+    height: 50%;
+    background-color: salmon;
+}
+
+
+
