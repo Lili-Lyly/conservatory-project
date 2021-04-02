@@ -1,26 +1,229 @@
 .principal-navbar{
 
-    position: absolute;
-    left: 0;
+    position: static;
     top: 0;
-    right: 0;
-    height: 100%;
-    pointer-events: none;
-    opacity: 0;
-   
+    height: 12rem;
+    width: 100%;
+    background-color: white;
+    
 }
 
 .first-nav {
-    width: 50%;
-    height: 50%;
-    background-color: royalblue;
+
+    text-align: right;
+    background-color: #80735d;
+    color: rgba(255,255,255,.6);
+    height: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 1.2rem;
+    box-sizing: inherit;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+
 }
 
-.second-nav{
-    width: 50%;
-    height: 50%;
-    background-color: salmon;
+.text-first-nav {
+
+    padding-left: 3rem;
+    
 }
 
+.text-first-nav-ad {
+
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+
+.text-first-nav:hover{
+    color: white;
+}
+
+.text-first-nav-ad:hover{
+    color: white;
+}
+
+
+.btn-conex{
+
+    width: 1.2rem;
+    height: 2.4rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3.5rem;
+    padding-right: 3rem;
+    padding-top: .5rem;
+    
+}
+
+.co {
+
+    color: rgba(255,255,255,.6);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+    .co:hover {
+        color: white;
+    }
+
+.second-nav {
+
+    width: 100%;
+    height: 8rem;
+    display: flex;
+}
+
+.text-second-nav-title{
+   width: 20%;
+   height: 100%;
+   font-size: 1.8rem;
+   color: rgb(168, 8, 8);
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   
+}
+
+.text-second-nav {
+   width: 60%;
+   height: 100%;
+}
+
+.text-second-nav-text {
+
+    padding-left: 6rem;
+    display: inline-table;
+    padding-top: 4rem;
+    font-size: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.b-m {
+
+   width: 20%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+  
+}
+
+.btn-media{
+
+    width: 75%;
+    height: 60%;
+    background-color: rgb(168, 8, 8);
+    margin-top: 2rem;
+    
+}
+
+.espace-media {
+
+    font-size: 1.7rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    cursor: pointer;
+
+}
+
+.img-n {
+
+    width: 100%;
+    height: 27rem;
+    background-color: white;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elwatan.com%2Fedition%2Fculture%2Fmusique-arabo-andalouse-plaidoyer-pour-un-apprentissage-moderne-13-10-2018&psig=AOvVaw2AJAfbCOz3uNwyYEXjH7PL&ust=1617456069414000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPia6MbT3-8CFQAAAAAdAAAAABAD);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inside {
+
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 35px 0 50px 0;
+    
+  }
+
+  .title {
+
+    text-align: center;
+    color: rgb(168, 8, 8);
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .btn-inscription {
+
+    width: 20%;
+    height: 15%;
+    background-color: rgb(168, 8, 8);
+    margin-left: 34rem;
+    opacity: 0.7;
+
+  }
+
+  .je-minscris {
+    color: white;
+    display: flex;
+    font-weight: bold;
+    padding-top: .6rem;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    cursor: pointer;
+  }
+
+  .je-minscris:hover{
+      color: black;
+  }
+  
+  
+.div-principal {
+
+    width: 100%;
+    height: 200%;
+    background-color: gray;
+    margin-top: 2rem;
+     }
+
+
+.div-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+}
+
+.main-card{
+
+    width: 28rem;
+    height: 18rem;
+    border-radius: 0;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elwatan.com%2Fedition%2Fculture%2Fnouri-koufi-interprete-algerien-de-musique-arabo-andalouse-je-derange-par-ma-facon-de-travailler-05-01-2019&psig=AOvVaw2cN142gYTKuZ1Cb0-7DKWb&ust=1617454108719000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCt9qjM3-8CFQAAAAAdAAAAABAJ);
+}
+
+
+.middle-nav {
+
+    width: 100%;
+    height: 50rem;
+    background-color: green;
+}
 
 
